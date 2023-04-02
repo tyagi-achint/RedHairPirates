@@ -1,0 +1,23 @@
+.main .col {
+  margin: 5mm;
+  background-color: white;
+  border-radius: 4mm 4mm 1mm 1mm;
+}
+
+.main {
+  margin-left: 220px;
+  margin-right: 20px;
+  background-color: #ecf9ff;
+  padding: 20px 15px;
+  height: 100%;
+}
+@media screen and (min-width: 992px) {
+  .main .col.hometimeTable {
+    min-height: 6cm;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main .col.hometimeTable {
+    min-height: 4.5cm;
+  }
+}

@@ -1,0 +1,22 @@
+table,
+th,
+td {
+  border: solid 1mm black;
+  border-collapse: collapse;
+  padding: 1mm;
+  font-size: medium;
+  font-weight: bold;
+}
+table {
+  background-image: url(https://wallpaperaccess.com/full/1471797.jpg);
+  background-size: cover;
+
+  max-width: 90% !important;
+  min-width: 90% !important;
+}
+
+@media screen and (min-width: 992px) {
+  th {
+    padding: 25px 8px !important ;
+  }
+}

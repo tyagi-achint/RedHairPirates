@@ -1,0 +1,27 @@
+nav .nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: large !important;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+nav .btn {
+  border-radius: 5mm;
+  border: 0.5mm solid;
+  font-size: medium !important;
+  font-weight: bold;
+}
+
+nav .btn:hover {
+  background-color: azure;
+}
+nav .nav-item.pagename {
+  position: absolute;
+  left: 220px;
+}

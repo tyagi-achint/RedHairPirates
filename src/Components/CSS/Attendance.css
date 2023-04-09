@@ -1,0 +1,8 @@
+.attendancepage .attendance {
+  background-color: #b5f1cc;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 2mm !important;
+  border-radius: 4mm 4mm 0 0;
+}

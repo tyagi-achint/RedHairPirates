@@ -1,0 +1,8 @@
+.attendance {
+  background-color: #ffb26b;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 2mm !important;
+  border-radius: 4mm 4mm 0 0;
+}

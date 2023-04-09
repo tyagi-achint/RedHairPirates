@@ -7,12 +7,14 @@ td {
   font-size: medium;
   font-weight: bold;
 }
-table {
+.timetablepage table {
   background-image: url(https://wallpaperaccess.com/full/1471797.jpg);
   background-size: cover;
-
   max-width: 90% !important;
   min-width: 90% !important;
+}
+.timetablepage td {
+  color: white;
 }
 
 @media screen and (min-width: 992px) {

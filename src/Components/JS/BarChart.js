@@ -1,5 +1,5 @@
 import "../CSS/BarChart.css";
-import { BarChart, Bar, XAxis, YAxis, Legend } from "recharts";
+import { BarChart, CartesianGrid, Bar, XAxis, YAxis, Legend } from "recharts";
 
 export default function Barchart() {
   const data = [
@@ -30,6 +30,7 @@ export default function Barchart() {
       <h4 className="syllabus">My Syllabus</h4>
 
       <BarChart width={380} height={150} data={data}>
+        <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="subject" />
         <YAxis type="number" domain={[0, 100]} interval={0} />
         <Legend />

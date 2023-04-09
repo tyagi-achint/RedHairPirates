@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 export default function Timetable() {
   return (
-    <div className="homepage">
+    <div className="timetablepage">
       <Navbar />
       <Sidebar />
       <div className="main ">
@@ -19,16 +19,16 @@ export default function Timetable() {
             </tr>
             <tr align="center">
               <th bgcolor="CCF3EE">Monday</th>
-              <td>
+              <td rowspan="5">
                 <b>Math</b>
               </td>
-              <td>
+              <td rowspan="5">
                 <b>Hindi</b>
               </td>
-              <td>
+              <td rowspan="5">
                 <b>Science</b>
               </td>
-              <td>
+              <td rowspan="5">
                 <b>Lunch Break</b>
               </td>
               <td>
@@ -37,54 +37,21 @@ export default function Timetable() {
             </tr>
             <tr align="center">
               <th bgcolor="CCF3EE">Tuesday</th>
-              <td>
-                <b>Math</b>
-              </td>
-              <td>
-                <b>Hindi</b>
-              </td>
-              <td>
-                <b>Science</b>
-              </td>
-              <td>
-                <b>Lunch Break</b>
-              </td>
+
               <td>
                 <b>English</b>
               </td>
             </tr>
             <tr align="center">
               <th bgcolor="CCF3EE">Wednesday</th>
-              <td>
-                <b>Math</b>
-              </td>
-              <td>
-                <b>Hindi</b>
-              </td>
-              <td>
-                <b>Science</b>
-              </td>
-              <td>
-                <b>Lunch Break</b>
-              </td>
+
               <td>
                 <b>Social</b>
               </td>
             </tr>
             <tr align="center">
               <th bgcolor="CCF3EE">Thursday</th>
-              <td>
-                <b>Math</b>
-              </td>
-              <td>
-                <b>Hindi</b>
-              </td>
-              <td>
-                <b>Science</b>
-              </td>
-              <td>
-                <b>Lunch Break</b>
-              </td>
+
               <td>
                 <b>English</b>
               </td>
@@ -92,18 +59,6 @@ export default function Timetable() {
             <tr align="center">
               <th bgcolor="CCF3EE">Friday</th>
 
-              <td>
-                <b>Math</b>
-              </td>
-              <td>
-                <b>Hindi</b>
-              </td>
-              <td>
-                <b>Science</b>
-              </td>
-              <td>
-                <b>Lunch Break</b>
-              </td>
               <td>
                 <b>Social</b>
               </td>
